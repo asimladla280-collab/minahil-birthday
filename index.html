@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120d20">
+  <title>Happy Birthday Minahil ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div id="particles" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">M<span>✦</span></a>
+    <a class="top-link" href="#memories">OUR MEMORIES</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <p class="eyebrow reveal">A LITTLE WEBSITE, A LOT OF LOVE</p>
+      <div class="hero-orbit" aria-hidden="true">
+        <span>✦</span><span>♡</span><span>✧</span>
+      </div>
+      <h1 class="reveal">HAPPY BIRTHDAY<br><em>MINAHIL</em><span class="heart"> ♥</span></h1>
+      <p class="hero-copy reveal">Today is all about celebrating you and the beautiful memories you bring.</p>
+      <a class="primary-btn reveal" href="#wishes">OPEN YOUR SURPRISE <span>↘</span></a>
+
+      <div class="cake-wrap reveal" aria-label="Animated birthday cake">
+        <div class="cake-glow"></div>
+        <div class="candles"><i></i><i></i><i></i></div>
+        <div class="flames"><b></b><b></b><b></b></div>
+        <div class="cake-top"></div>
+        <div class="cake-layer"></div>
+        <div class="cake-base"></div>
+        <div class="cake-plate"></div>
+      </div>
+      <span class="scroll-note">SCROLL TO EXPLORE ↓</span>
+    </section>
+
+    <section class="intro section reveal" id="wishes">
+      <p class="eyebrow">A SPECIAL DAY FOR A SPECIAL PERSON</p>
+      <h2>May your next chapter<br><em>be your brightest yet.</em></h2>
+      <p class="body-copy">May your days be filled with laughter, kind people, exciting little adventures and countless reasons to smile. Keep shining, Minahil. ✨</p>
+      <div class="wish-sign">With warm wishes <span>♡</span></div>
+    </section>
+
+    <section class="gallery section" id="memories">
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE LITTLE MOMENTS</p>
+        <h2>Beautiful <em>memories</em></h2>
+        <p>Every picture holds a moment worth keeping.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="photo-card photo-large reveal">
+          <img src="assets/photo-01.jpg" alt="Minahil memory 1" onerror="this.src='assets/photo-01.png'">
+          <figcaption>Little moments, forever memories</figcaption>
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="assets/photo-02.jpg" alt="Minahil memory 2" onerror="this.src='assets/photo-02.png'">
+          <figcaption>A day to remember</figcaption>
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="assets/photo-03.jpg" alt="Minahil memory 3" onerror="this.src='assets/photo-03.png'">
+          <figcaption>One of a kind</figcaption>
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="assets/photo-04.jpg" alt="Minahil memory 4" onerror="this.src='assets/photo-04.png'">
+          <figcaption>Keep that sparkle</figcaption>
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="assets/photo-05.jpg" alt="Minahil memory 5" onerror="this.src='assets/photo-05.png'">
+          <figcaption>Always worth a smile</figcaption>
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="assets/photo-06.png" alt="A shared memory">
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="assets/photo-07.png" alt="Another shared memory">
+        </figure>
+      </div>
+    </section>
+
+    <section class="videos section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">PRESS PLAY</p>
+        <h2>Moments in <em>motion</em></h2>
+        <p>Two little videos, saved here as memories.</p>
+      </div>
+      <div class="video-grid">
+        <div class="video-card reveal">
+          <video controls playsinline preload="metadata" poster="assets/video-poster.jpg">
+            <source src="assets/video-01.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+          <span>MEMORY NO. 01</span>
+        </div>
+        <div class="video-card reveal">
+          <video controls playsinline preload="metadata">
+            <source src="assets/video-02.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+          <span>MEMORY NO. 02</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="surprise section reveal">
+      <p class="eyebrow">ONE LAST LITTLE THING</p>
+      <h2>A gift, just <em>for you.</em></h2>
+      <button class="gift-button" id="giftButton" type="button" aria-label="Open the surprise gift">
+        <span class="gift-box">🎁</span>
+        <small>TAP TO OPEN</small>
+      </button>
+      <p class="gift-message" id="giftMessage">Wishing you a year as wonderful as you are. Happy Birthday, Minahil! ❤️</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-mark">M<span>✦</span></div>
+    <p>MADE WITH CARE FOR MINAHIL</p>
+    <small>HAPPY BIRTHDAY ♥</small>
+  </footer>
+
+  <button class="music-toggle" id="musicToggle" type="button">♫ <span>Play music</span></button>
+  <audio id="birthdayMusic" loop preload="none">
+    <source src="assets/birthday-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
